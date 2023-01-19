@@ -1,0 +1,158 @@
+
+body {
+    background-image: url(images/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+}
+
+img {
+    border-radius: 5px;
+    border: 2.5px solid black;
+    height: 230px;
+    width: 150px;
+}
+
+.galactic-emblem {
+    height: auto;
+    width: 100px;
+    margin: 2rem;
+    border: none;
+    border-radius: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-button-container {
+    display: flex;
+    gap: 4rem;
+    margin: 2rem;
+    margin-right: 8rem;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.nav-button {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.nav-button:hover {
+    color: maroon;
+}
+
+.recruitment-container{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    align-items: center;
+}
+
+.enlist-text-container {
+    width: 380px;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.regular-text {
+    font-size: 1em;
+    color: gainsboro;
+}
+
+.header-poster {
+    height: auto;
+    width: 200px;
+}
+
+.enlist-button {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px dashed white;
+}
+
+.inspirational-image-section {
+    background-color: maroon;
+    padding: 0.2rem;
+    margin-top: 2rem;
+    height: fit-content;
+}
+
+.inspirational-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1.2rem;
+}
+
+.inspirational-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.quote-section {
+    background-color: #393939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.quote-text {
+    font-size: 28px;
+    font-style: italic;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-citation {
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+    font-weight: 800;
+}
+
+.inspirational-image p {
+    height: 80px;
+}
+
+.bottom-section {
+    background-color: maroon;
+}
+
+.final-remark-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
