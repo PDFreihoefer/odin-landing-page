@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(images/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    background-color: maroon;
     font-family: Roboto, Helvetica, sans-serif;
     margin: 0;
 }
@@ -18,6 +18,10 @@ img {
     margin: 2rem;
     border: none;
     border-radius: none;
+}
+
+.header {
+    background-image: linear-gradient(black, maroon);
 }
 
 nav {
@@ -86,6 +90,11 @@ h1 {
     border: 1px dashed white;
 }
 
+.enlist-button:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
 .inspirational-image-section {
     background-color: maroon;
     padding: 0.2rem;
@@ -118,11 +127,11 @@ h2 {
 }
 
 .quote-section {
-    background-color: #393939;
+    background-image: linear-gradient(maroon, ivory, maroon);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 400px;
 }
 
 .quote-text {
@@ -146,13 +155,34 @@ h2 {
 }
 
 .bottom-section {
-    background-color: maroon;
+    background-image: linear-gradient(maroon, black);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 }
 
 .final-remark-block {
+    color: white;
     display: flex;
-    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: .6rem;
+    background-color: black;
+    width: 800px;
+    padding: 20px;
+    justify-content: space-between;
     align-items: center;
+}
+
+.final-remark-text {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1rem;
 }
 
 
